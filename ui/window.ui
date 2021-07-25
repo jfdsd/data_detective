@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>50</y>
+      <width>381</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>379</width>
+       <height>319</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>381</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout"/>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>261</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>190</y>
+       <width>261</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>                      关注商品列表</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="listView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>230</y>
+       <width>261</width>
+       <height>91</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>261</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="menu" stdset="0">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>菜单</string>
+    </property>
+    <addaction name="action_heat_2"/>
+    <addaction name="action_evaluate"/>
+    <addaction name="action_price"/>
+    <addaction name="action_up"/>
+   </widget>
+   <widget class="QMenu" name="menu_sys">
+    <property name="title">
+     <string>系统</string>
+    </property>
+    <addaction name="action_about"/>
+    <addaction name="action_out_2"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_sys"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_heat_2">
+   <property name="text">
+    <string>action_heat_2</string>
+   </property>
+  </action>
+  <action name="action_evaluate">
+   <property name="text">
+    <string>action_evaluate</string>
+   </property>
+  </action>
+  <action name="action_price">
+   <property name="text">
+    <string>action_price</string>
+   </property>
+  </action>
+  <action name="action_up">
+   <property name="text">
+    <string>action_up</string>
+   </property>
+  </action>
+  <action name="action_about">
+   <property name="text">
+    <string>action_about</string>
+   </property>
+  </action>
+  <action name="action_out_2">
+   <property name="text">
+    <string>action_out_2</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
